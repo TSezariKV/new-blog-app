@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <form action="/blogs" method="POST">
+        <label for="title">Title</label>
+        <input type="text" id="titile" name="title" />
+        <label for="body">Body</label>
+        <textarea name="body" id="body"></textarea>
+        <button type="submit" id="creabe-blog-btn">Create</button>
+    </form>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
