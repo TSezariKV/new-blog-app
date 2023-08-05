@@ -66,6 +66,65 @@ form button {
     cursor: pointer;
 }
 
+/*==== Blogs ====*/
+.blogs-container {
+    width: 70%;
+    margin: 100px auto;
+}
+.blog {
+    padding-left: 20px;
+    border-left: 6px solid red;
+    margin-bottom: 50px;
+    position: relative;
+}
+.blog a {
+    text-decoration: none;
+    color: inherit;
+}
+.blog .delete-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 22px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    color: red;
+}
+.blog-title {
+    font-size: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.blog-body {
+    font-size: 20px;
+    color: #4d4d4d;
+}
+.blog-title:hover {
+    color: red;
+}
+.blog-title,
+.blog-body {
+    width: 500px;
+}
+
+.single-blog {
+    border: none;
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+}
+.single-blog .blog-title {
+    margin: 50px 0;
+}
+.single-blog .delete-btn {
+    cursor: pointer;
+    width: 60px;
+    margin: 50px auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /*==== Footer ====*/
 .footer {
     color: #1d1d1d;

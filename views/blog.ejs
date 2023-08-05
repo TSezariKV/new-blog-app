@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <div class="single-blog">
+        <h2 class="blog-title"><%= blog.title %></h2>
+        <p class="blog-body"><%= blog.body %></p>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
